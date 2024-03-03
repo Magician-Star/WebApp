@@ -1,0 +1,14 @@
+21:26:15.602 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+21:26:15.971 [main] INFO com.firebase.server.forge.App$ - Listening at 127.0.0.1:9000
+21:26:52.619 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO com.firebase.core.namespace.NamespaceActor - webjs-16eef-default-rtdb successfully activated FBKV (SurveyIdle(0)) wait: 684ms, init: 0ms
+21:26:52.973 [NamespaceSystem-blocking-namespace-operation-dispatcher-6] INFO com.firebase.core.namespace.StateManager - Namespace webjs-16eef-default-rtdb status Active to Active
+21:28:24.290 [FirebaseWorkerPool-1-3] WARN com.firebase.core.persistence.backend.dummy.EmulatorMetadataPersistence - Multiple projectIds are not recommended in single project mode. Requested 
+namespace webjs-16eef, but the emulator is configured for webjs-16eef-default-rtdb. To 
+opt-out of single project mode add/set the singleProjectMode: false property in 
+the firebase.json emulators config. 
+21:28:24.309 [NamespaceSystem-akka.actor.default-dispatcher-8] INFO com.firebase.core.namespace.NamespaceActor - webjs-16eef successfully activated FBKV (SurveyIdle(0)) wait: 9ms, init: 0ms
+21:37:16.450 [Thread-0] INFO com.firebase.server.forge.App$ - Attempting graceful shutdown.
+21:37:16.711 [NamespaceSystem-akka.actor.default-dispatcher-26] INFO com.firebase.core.namespace.Terminator$Terminator - 2 actors left to terminate: webjs-16eef-default-rtdb, webjs-16eef
+21:37:16.738 [NamespaceSystem-akka.actor.default-dispatcher-24] INFO com.firebase.core.namespace.NamespaceActor - stopped namespace actor for webjs-16eef
+21:37:16.738 [NamespaceSystem-akka.actor.default-dispatcher-27] INFO com.firebase.core.namespace.NamespaceActor - stopped namespace actor for webjs-16eef-default-rtdb
+21:37:16.763 [Thread-0] INFO com.firebase.server.forge.App$ - Graceful shutdown complete.
